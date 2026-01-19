@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f6fff8;
+    color: #2f3e46;
+}
+
+/* Banner */
+.banner {
+    background: linear-gradient(to right, #a8e6cf, #dcedc1);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+/* Menu */
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #95d5b2;
+}
+
+.menu li {
+    margin: 10px 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1b4332;
+    font-weight: bold;
+}
+
+/* About */
+.about {
+    padding: 40px;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 230px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* CTA */
+.cta {
+    background-color: #52b788;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.cta button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    border: none;
+    background-color: #1b4332;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #1b4332;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f6fff8;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.menu{
+    display: flex;
+    background-color: rgb(241, 195, 202);
+    color: rgb(231, 67, 94);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+
+.card {
+    background-color: white;
+    width: 230px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
